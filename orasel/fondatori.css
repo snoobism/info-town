@@ -1,0 +1,79 @@
+body{
+
+	overflow-x:hidden;
+
+	background-color:black;
+}
+@font-face {
+    font-family: 'bebasregular';
+    src: url('BEBAS___-webfont.eot');
+    src: url('BEBAS___-webfont.eot?#iefix') format('embedded-opentype'),
+         url('BEBAS___-webfont.woff') format('woff'),
+         url('BEBAS___-webfont.ttf') format('truetype'),
+         url('BEBAS___-webfont.svg#bebasregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face{
+	font-family:bebasthin;
+	src:url(BebasNeue-Thin.woff)
+}
+@font-face{
+	font-family:bebasbook;
+	src:url(BebasNeue-Book.woff)
+}
+@font-face{
+	font-family:bebasbold;
+	src:url(BebasNeue-Bold.woff)
+}
+@font-face{
+	font-family:bebaslight;
+	src:url(BebasNeue-Light.woff)
+}@font-face {
+    font-family: museo;
+    src: url(museo500.woff);
+}
+
+ul{	position:fixed;
+	width:100%;
+	background:#333333;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    top:0;
+	font-family:bebasregular;
+	box-shadow:0 2px 1px black;
+	z-index:5;
+	white-space: nowrap;	
+	border-bottom:3px solid #004280;
+	opacity:1;
+	display:block;
+	list-style-type: none;
+	z-index:100;
+}
+li{	padding-top:15px;
+	padding-bottom:5px;
+	padding-left:20px;
+	padding-right:20px;
+    display: inline-block;
+     text-align: center;
+	color:White;
+	text-shadow:2px 2px 2px grey;
+	transition:0.3s ease;
+	float:left;
+}
+li:hover{
+	background-color:#0069cc;
+	cursor:pointer;
+}
+li:nth-child(2){
+		background-color: #004280;
+}
+
+
+a{
+	text-decoration:none;
+	color:white;
+}

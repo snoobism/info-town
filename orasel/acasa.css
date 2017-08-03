@@ -5,6 +5,7 @@ body, html {
 body{
 
 	overflow-x:hidden;
+
 	background-color:black;
 }
 @font-face {
@@ -18,6 +19,26 @@ body{
     font-style: normal;
 
 }
+
+@font-face{
+	font-family:bebasthin;
+	src:url(BebasNeue-Thin.woff)
+}
+@font-face{
+	font-family:bebasbook;
+	src:url(BebasNeue-Book.woff)
+}
+@font-face{
+	font-family:bebasbold;
+	src:url(BebasNeue-Bold.woff)
+}
+@font-face{
+	font-family:bebaslight;
+	src:url(BebasNeue-Light.woff)
+}@font-face {
+    font-family: museo;
+    src: url(museo500.woff);
+}
 .parallax {
     background-image: url("imagini/bgacasa.png");
     height: 100%;
@@ -25,7 +46,7 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
+	z-index:-2;
 	}
 ul{	position:fixed;
 	width:100%;
@@ -42,6 +63,7 @@ ul{	position:fixed;
 	opacity:1;
 	display:block;
 	list-style-type: none;
+	z-index:100;
 }
 li{	padding-top:15px;
 	padding-bottom:5px;
@@ -68,6 +90,8 @@ a{
 	color:white;
 }
 #andrei{
+	opacity:0;
+	transition:1s all;
 	position:absolute;
 	left:0;
 	bottom:0;
@@ -77,10 +101,104 @@ a{
     background-size: contain;
 }
 #bula{
+	opacity:0;
+	transition:1s all;
 	position:absolute;
 	background-image: url("imagini/bubble1.png");
 	 background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
+	cursor:pointer;
+	z-index:6;
+}
+#atentie{
+	position:absolute;
+	opacity:1;
+	transition:0.3s all;
+	font-family:bebasbold;
+	color:white;
+	bottom:5%;
+	left:50%;
+	transform:translateX(-50%);
+	background-color:#00274c;
+	display:table;
+	vertical-align:middle;
+	text-shadow:0px 0px 15px black;
+	box-shadow:0px 0px 15px black;
+	opacity:0;
+	
+}
+#infotown{
+	opacity:0;
+	position:absolute;
+	left:50%;
+	top:50%;
+	transform:translate(-50%,-50%);
+	box-shadow:0px 0px 115px black;
+	border-radius:50%;
+	z-index:5;
+	transition:0.5s all;
+}
+#putem{
+	
+	box-shadow:0px 0px 25px ;
+	width:100%;
+	background-image:url("imagini/putem.jpg");
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	
+}
+#titluaplic{
+	font-family:bebasbold;
+	color:white;
+	text-shadow:0px 0px 15px black;
+}
+#aplic_elem1{
+	color:white;
+	font-family:bebasbook;
+	text-shadow:0px 0px 15px black;
+}
+#aplic_elem2{
+	color:white;
+	font-family:bebasbook;
+	text-shadow:0px 0px 15px black;
+}
+#aplic_elem3{
+	color:white;
+	font-family:bebasbook;
+	text-shadow:0px 0px 15px black;
+}
+.sageata{
+	
+	vertical-align:middle;
+	color:red;
+	text-shadow:0px 0px 25px black;
+}
+.hideme
+{
+    opacity:0;
+}
+#spremuzeu{
+	font-family:museo;
+	color:white;
+	width:100%;
+	background-image:url("imagini/bgmuzeu.png");
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	display:table;
+}
+#spune{
+	display:table-cell;
+	vertical-align:middle;
+	text-shadow:0px 0px 5px black;
+}
+#muzeu{
+	
+	position:relative;
+	border-radius:50%;
 	
 }
