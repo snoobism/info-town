@@ -1,13 +1,6 @@
 body{
 	margin:0 auto;
-	overflow-x:hidden;
-
-	background-image: url("imagini/museumbg.jpg");
-    height: 100%; 
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+	background:white;
 }
 @font-face {
     font-family: 'bebasregular';
@@ -73,7 +66,7 @@ li:hover{
 	background-color:#0069cc;
 	cursor:pointer;
 }
-li:nth-child(2){
+li:nth-child(3){
 		background-color: #004280;
 }
 
@@ -81,48 +74,4 @@ li:nth-child(2){
 a{
 	text-decoration:none;
 	color:white;
-}
-.coloana{
-	position:relative;
-	display:inline-block;
-	
-}
-.imagine{
-	display:block;
-	object-fit:contain;
-	
-}
-.desc{
-	display:block;
-	margin-top:2%;
-	
-}
-.buton{
-	display:block;
-	margin-top:2%;
-	background:rgba(0,0,0,0.5);
-}
-span{
-	color:#1CB5E0;
-}
-.func{
-	color:red;
-}
-#descfunct{
-	display:table;
-}
-#explicatie{
-	display:table-cell;
-	color:white;
-	text-shadow:0px 0px 10px black;
-	font-family:museo;
-	text-align:center;
-	
-	vertical-align:middle;
-	
-}
-#imagine_cod{
-	'display:table-cell;
-	
-	vertical-align:middle;
 }

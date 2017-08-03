@@ -5,8 +5,13 @@ body, html {
 body{
 
 	overflow-x:hidden;
-
-	background-color:black;
+	overflow:hidden;
+	background-image: url("imagini/acasabg.jpg");
+    height: 100%; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 @font-face {
     font-family: 'bebasregular';
@@ -47,6 +52,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 	z-index:-2;
+	box-shadow:0px 0px 25px black;
 	}
 ul{	position:fixed;
 	width:100%;
@@ -141,7 +147,7 @@ a{
 }
 #putem{
 	
-	box-shadow:0px 0px 25px ;
+	box-shadow:0px 0px 25px black;
 	width:100%;
 	background-image:url("imagini/putem.jpg");
 	background-attachment: fixed;
@@ -181,6 +187,7 @@ a{
     opacity:0;
 }
 #spremuzeu{
+	box-shadow:0px 0px 25px black;
 	font-family:museo;
 	color:white;
 	width:100%;
@@ -197,7 +204,7 @@ a{
 	text-shadow:0px 0px 5px black;
 }
 #muzeu{
-	
+	box-shadow:0px 0px 25px black;
 	position:relative;
 	border-radius:50%;
 	
