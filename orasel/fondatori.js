@@ -182,10 +182,12 @@ window.onload = function()
 	
 	var f=document.getElementsByClassName('coloana');
 	for (var i=0;i<=f.length-1;i++)
-	{
+	{	f[i].id='f'+i;
 		f[i].style.width=0.3*x0+'px';
 		f[i].style.marginLeft=0.02*x0+'px';
 		f[i].style.marginTop=0.1*y0+'px';
+		f[i].style.opacity=0;
+		f[i].style.transition='0.5s all';
 	}
 	var g=document.getElementsByClassName('imagine');
 	for (var i=0;i<=g.length-1;i++)
@@ -230,6 +232,13 @@ window.onload = function()
 	j[0].onclick=function (){schimba(1)};
 	j[1].onclick=function (){schimba(2)};
 	j[2].onclick=function (){schimba(3)};
+	
+	var k=0;
+	setInterval(function(){
+		
+		document.getElementById('f'+k).style.opacity=1;;
+		k++;
+	},750);
 	
 	document.getElementById('descfunct').style.width=0.6*x0+'px';
 	document.getElementById('descfunct').style.height=0.3*y0+'px';

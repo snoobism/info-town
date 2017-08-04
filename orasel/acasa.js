@@ -1,5 +1,7 @@
 var y0=window.screen.availHeight;
 var x0=window.screen.availWidth;
+var street = new Audio('audio/street.mp3');
+var bgmusic = new Audio('audio/bgmusic.mp3');
 
 $.fn.resizeText0 = function () {
     var width = $(this).innerWidth();
@@ -252,7 +254,10 @@ function next(){
 }
 
 window.onload = function(){
-	
+	street.play();
+	street.volume=0.3;
+	bgmusic.play();
+	bgmusic.volume=0.5;
 	var d=document.getElementById("lista").children;
 	var e=document.getElementsByClassName("textc");
 	for(var i=0;i<=e.length-1;i++)

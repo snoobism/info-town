@@ -1,5 +1,22 @@
+Bibliografie
+
+
+Poze
+
 https://ro.pinterest.com/pin/57209857746505667/
 http://wallpapercave.com/hacker-background
 http://www.freepik.com/free-photos-vectors/museum
 https://ro.pinterest.com/pin/365354588493642623/
 http://www.freepik.com/free-photos-vectors/men
+http://8-themes.com/6572-the-doctors-office-in-game-everlasting-summer/
+http://www.pptback.com/chicago-skyscrapers-pptbackground.html
+
+Audio
+
+https://www.youtube.com/watch?v=xIrkdJnsLPU
+
+
+
+Am folosit libraria jQuery
+ https://stackoverflow.com/a/24377362 (algoritm pentru incadrarea textului in orice div de dimensiuni fixe)
+Test prelucrat de la Istoria prin film
